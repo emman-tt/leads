@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/* "CUE CONSOLE (MINTZ)" palette — lead-pipeline.pen / MINTZ frames.
+   Tokens verified against design-tokens.json (data/briefs/992/design). */
+:root {
+  --blackout: #0b0b12;
+  --struck: #14141f;
+  --case: #1c1c29;
+  --tent: #f2efe9;
+  --gel: #e6175f;
+  --geldeep: #a02060;
+  --peri: #8a8ce8;
+  --perideep: #404090;
+  --haze: #a9abb6;
+  --inkmute: #57545e;
+  --gelhi: #ff5d8f;
+  --gelfill: #c2104f;
+
+  --rule-light: #f2efe91f; /* tent at 12%  — hairline on dark   */
+  --rule-lighter: #f2efe926; /* tent at 15%  — quiet rules      */
+  --rule-chip: #f2efe93d; /* tent at 24%  — outlined chips     */
+  --rule-dark: #0b0b1219; /* ink at 10%   — hairline on light  */
+  --rule-mid: #0b0b1233; /* ink at 20%   — outlined chips     */
+  --rule-hard: #0b0b124d; /* ink at 30%   — form fields        */
+}
+
+@theme inline {
+  --color-blackout: var(--blackout);
+  --color-struck: var(--struck);
+  --color-case: var(--case);
+  --color-tent: var(--tent);
+  --color-gel: var(--gel);
+  --color-geldeep: var(--geldeep);
+  --color-peri: var(--peri);
+  --color-perideep: var(--perideep);
+  --color-haze: var(--haze);
+  --color-inkmute: var(--inkmute);
+  --color-gelhi: var(--gelhi);
+  --color-gelfill: var(--gelfill);
+
+  --font-display: var(--font-shoulders), "Big Shoulders", system-ui, sans-serif;
+  --font-stencil: var(--font-stencil), var(--font-shoulders), "Big Shoulders", system-ui, sans-serif;
+  --font-body: var(--font-hanken), "Hanken Grotesk", system-ui, sans-serif;
+  --font-mono: var(--font-spline), "Spline Sans Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--blackout);
+  color: var(--tent);
+  font-family: var(--font-hanken), "Hanken Grotesk", system-ui, sans-serif;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--gel);
+  color: var(--tent);
+}
+
+/* visible focus for keyboard CTAs (WCAG) */
+:where(a, button, select, input, [tabindex]):focus-visible {
+  outline: 3px solid var(--gelhi);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* skip link — visually hidden until focused */
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  z-index: 100;
+  background: var(--gelfill);
+  color: var(--tent);
+  font-weight: 700;
+  font-size: 12px;
+  padding: 10px 16px;
+  transition: top 0.2s ease-out;
+}
+.skip-link:focus {
+  top: 16px;
+}
+
+/* ---- cue console / stage plot ------------------------------------ */
+/* beam vars are driven by the cue keys: --beam-angle, --beam-wash,
+   --beam-pool and --beam-gel temperature cross-fade over 480ms. */
+.stage-plot {
+  --beam-angle: 45deg;
+  --beam-wash: var(--gel);
+  --beam-pool: var(--gel);
+}
+/* cone apex sits at the lamp (left 38%, top 78px); rotate() tilts the
+   straight-down drop by the cue angle, so the beam leaves the fixture. */
+.beam-cone {
+  position: absolute;
+  left: calc(38% - 280px);
+  top: 78px;
+  width: 560px;
+  height: calc(100% - 128px);
+  clip-path: polygon(46% 0, 54% 0, 100% 100%, 0 100%);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--beam-wash) 30%, transparent) 0%,
+    color-mix(in srgb, var(--beam-wash) 6%, transparent) 75%,
+    transparent 100%
+  );
+  transform-origin: 50% 0%;
+  transform: rotate(var(--beam-angle));
+}
+.floor-pool {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    196px 38px at calc(38% + sin(var(--beam-angle)) * 440px) 100%,
+    color-mix(in srgb, var(--beam-pool) 34%, transparent) 0%,
+    transparent 100%
+  );
+}
+
+/* ambient = haze drift only (24s), killed under reduced motion */
+@keyframes haze-drift {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* prefers-reduced motion: kill all CSS animation + smooth scrolling */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,52 @@
+Canaan Medical Centre — corrected WhatsApp outreach
+Lead #921 · Nairobi CBD, Kenya · verified 2026-10-22 (v2)
+Verified: mobile +254 711 702 224 · Corner House, 1st Floor, Mama Ngina Street
+Verified: old site canaanhealthproviders.org is gone; domain lapsed and is unregistered now
+Verified: the email on their Minet panel / Yellow Pages listing uses that domain — it bounces
+Verified: no live site under any name variant, no Facebook, no Instagram
+Payment rail in Kenya: M-Pesa. No preview exists — never claim one.
+
+────────────────────────────────────────
+VARIANT A — warm / short (send first)
+────────────────────────────────────────
+Hi Canaan Medical Centre 👋 Emmanuel here. I looked you up before a visit and found that your old site — canaanhealthproviders.org — is gone, and the email on your insurer listing uses that same domain, so it bounces now.
+
+I build simple one-page sites for Nairobi clinics: location and map pin, opening hours, the schemes you accept, and a WhatsApp button to book. I can put a first draft together at no charge and send a screenshot here.
+
+Want me to? If it's not useful, just say so and I won't message again. — Emmanuel
+
+────────────────────────────────────────
+VARIANT B — detailed
+────────────────────────────────────────
+Hi Canaan Medical Centre, Emmanuel here. I found you on the Minet and UAP Old Mutual panels — Corner House, Mama Ngina Street — and then went to look at your website.
+
+It's gone. canaanhealthproviders.org used to hold your "Canaan Health Providers" page; by early 2025 the address just forwarded to Facebook, and now the domain has expired. The email printed on your Minet listing uses that domain, so it bounces.
+
+What I build: one clean page with your location and a map pin, opening hours, the insurers you accept, and a WhatsApp button so a patient can ask a question without calling. It loads fast on mobile data.
+
+I haven't built anything for you yet. If it's useful I'll do a free first draft and send a screenshot right here — if not, tell me and I'll stop. — Emmanuel
+
+────────────────────────────────────────
+FOLLOW-UP — day 3
+────────────────────────────────────────
+Hi, Emmanuel here, following up on the clinic website idea. Short version: your old domain has expired and the email on your insurer listing bounces, so that's the only reason I messaged. Should I put together the free draft, or park it? One word is fine.
+
+────────────────────────────────────────
+FOLLOW-UP — day 7 (close the loop)
+────────────────────────────────────────
+Last note from me, promise. If a simple page with your hours, location and the schemes you accept would help later, the offer stands and the draft is still free. If not, no problem — all the best. 🙏 — Emmanuel
+
+────────────────────────────────────────
+Notes for the sender
+────────────────────────────────────────
+- Address them as "Canaan Medical Centre", not a person. No doctor, director or owner is named publicly; ask who handles enquiries in the first reply.
+- Send from a normal WhatsApp number to +254 711 702 224. It is published as a mobile, not confirmed as WhatsApp — if it doesn't deliver, call 020 341 896 (or 020 341 903 / 020 223 0697) during weekday hours.
+- Do NOT email. info@canaanhealthproviders.org cannot receive mail.
+- The hook is the lapsed domain. Say "expired" — not "hacked", not "taken over". It was their own site from 2017, a half-built template, then a redirect to facebook.com, then it lapsed.
+- Useful if they ask how you know: their old site was archived 2017–2021, the domain redirected to Facebook by Feb 2025, and it's out of the registry now.
+- Do not say patients can't find them. They are on three insurer panels and in every directory; the gap is a web presence, not visibility.
+- No clinical or medical claims of any kind. Location, hours, schemes, booking only.
+- Do not say "MoMo". In Kenya it is M-Pesa.
+- Do not quote reviews — 0 to 4 depending on the directory, undated.
+- Design note: the VITALRAY patient-report / scan-viewer layout is burned in the design ledger. Use a different direction — walk-in clarity, insurance-card strip, Corner House wayfinding — not a diagnostics dashboard.
+- Opt-out line is in every message. Honour it and mark the lead opted out in the pipeline.

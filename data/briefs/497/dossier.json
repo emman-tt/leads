@@ -1,0 +1,111 @@
+{
+  "id": 497,
+  "source": "ghanayello",
+  "source_id": "30407",
+  "name": "Good Brother Chemicals",
+  "slug": "Good_Brother_Chemicals",
+  "profile_url": "https://www.ghanayello.com/company/30407/Good_Brother_Chemicals",
+  "brand_key": "good brother chemicals",
+  "city": null,
+  "region": null,
+  "address": "Odumase Krobo, near Asesewa Station, Odumase-Krobo, Ghana",
+  "phone": "+233 20 829 3244",
+  "whatsapp": null,
+  "website": null,
+  "has_website": null,
+  "website_status": "unknown",
+  "weakness_score": null,
+  "weakness_flags": [],
+  "email": null,
+  "emails": null,
+  "established_year": null,
+  "employees": null,
+  "description": null,
+  "categories": [
+    "pharmacies"
+  ],
+  "rating": 5.0,
+  "reviews_count": 3,
+  "photos_count": null,
+  "latitude": null,
+  "longitude": null,
+  "logo_url": null,
+  "images": [],
+  "videos": [],
+  "socials": {},
+  "discovered_at": "2026-10-20T22:26:46+00:00",
+  "profile_fetched_at": null,
+  "website_checked_at": null,
+  "area": null,
+  "ghana_post": null,
+  "language": "en",
+  "phone_e164": "+233208293244",
+  "source_of": "ghanayello",
+  "area_key": "accra|",
+  "dedupe_key": "f0836ec951880d66",
+  "dedupe_key_np": "7ff4ab12578a7f81",
+  "signals": [],
+  "evidence": {},
+  "accept_score": 48,
+  "tier": "C",
+  "score_breakdown": {
+    "health": {
+      "score": 6,
+      "weighted": 15.0,
+      "why": "3 reviews, moderate activity"
+    },
+    "readiness": {
+      "score": 2,
+      "weighted": 4.0,
+      "why": "no meaningful digital storefront beyond directory"
+    },
+    "need": {
+      "score": 4,
+      "weighted": 8.0,
+      "why": "weak review/mapping visibility"
+    },
+    "pay": {
+      "score": 7,
+      "weighted": 10.5,
+      "why": "premium category (pharmacies)"
+    },
+    "reach": {
+      "score": 8,
+      "weighted": 8.0,
+      "why": "direct phone/WhatsApp on their listing"
+    },
+    "assets": {
+      "score": 3,
+      "weighted": 3.0,
+      "why": "too few quality images from public sources yet"
+    }
+  },
+  "reason": "strongest selling point: Health and Pay",
+  "objection": "no time on the phone — send WhatsApp proof (screenshots) not paragraphs",
+  "media_ready": null,
+  "scored_at": "2026-10-20T22:37:54+00:00",
+  "media_at": null,
+  "brief_at": null,
+  "opt_out": 0,
+  "socials_checked_at": null,
+  "country": "ghana",
+  "assets": [],
+  "assets_note": {
+    "preview_only": true,
+    "hero_worthy_count": 0,
+    "flagged_non_hero": []
+  },
+  "contacts": {
+    "whatsapp": null,
+    "phone": "+233 20 829 3244",
+    "email": null,
+    "ig": null,
+    "fb": null
+  },
+  "brand": {
+    "colors": null,
+    "logo": null,
+    "tagline": ""
+  },
+  "outreach_draft": "Hello! Good —\nI went through Accra pharmacies listing your business and noticed customers find your pharmacies listing on Google, but there is nothing behind it to browse or book — and no site of yours.\nI build one-page websites for businesses like yours: WhatsApp booking, MoMo payments, your best photos front and centre.\nI have already put together a free preview mockup based on your own photos — it is specific to your business, not a template.\nMay I send the preview images here on WhatsApp? If it is not for you, just tell me and I will not message again.\n— Emmanuel, [Studio]"
+}

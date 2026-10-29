@@ -1,0 +1,111 @@
+{
+  "id": 935,
+  "source": "kenyayp",
+  "source_id": "kenyayp:1328798",
+  "name": "Vital Ray Medical Imaging",
+  "slug": null,
+  "profile_url": "https://www.yellowpageskenya.com/business-category/health-and-medical/business-details/1328798-vital-ray-medical-imaging",
+  "brand_key": null,
+  "city": null,
+  "region": null,
+  "address": null,
+  "phone": "+254202731650",
+  "whatsapp": "+254202731651",
+  "website": "https://www.googletagmanager.com/gtag/js?id=G-Z6HX57VF8P",
+  "has_website": null,
+  "website_status": "unknown",
+  "weakness_score": null,
+  "weakness_flags": [],
+  "email": null,
+  "emails": null,
+  "established_year": null,
+  "employees": null,
+  "description": null,
+  "categories": [
+    "pharmacies"
+  ],
+  "rating": null,
+  "reviews_count": null,
+  "photos_count": null,
+  "latitude": null,
+  "longitude": null,
+  "logo_url": null,
+  "images": [],
+  "videos": [],
+  "socials": {},
+  "discovered_at": "2026-10-20T22:59:46+00:00",
+  "profile_fetched_at": null,
+  "website_checked_at": null,
+  "area": null,
+  "ghana_post": null,
+  "language": "en",
+  "phone_e164": "+254202731650",
+  "source_of": "kenyayp",
+  "area_key": null,
+  "dedupe_key": "9985fd08067e0329",
+  "dedupe_key_np": "3b5519ae7cc313c3",
+  "signals": [],
+  "evidence": {},
+  "accept_score": 48,
+  "tier": "C",
+  "score_breakdown": {
+    "health": {
+      "score": 4,
+      "weighted": 10.0,
+      "why": "thin activity data; treat as unverified active"
+    },
+    "readiness": {
+      "score": 5,
+      "weighted": 10.0,
+      "why": "present on 1 channel(s) but sales funnel incomplete"
+    },
+    "need": {
+      "score": 3,
+      "weighted": 6.0,
+      "why": "no strong need signal; site ~functional"
+    },
+    "pay": {
+      "score": 7,
+      "weighted": 10.5,
+      "why": "premium category (pharmacies)"
+    },
+    "reach": {
+      "score": 8,
+      "weighted": 8.0,
+      "why": "direct phone/WhatsApp on their listing"
+    },
+    "assets": {
+      "score": 3,
+      "weighted": 3.0,
+      "why": "too few quality images from public sources yet"
+    }
+  },
+  "reason": "strongest selling point: Pay and Health",
+  "objection": "no time on the phone — send WhatsApp proof (screenshots) not paragraphs",
+  "media_ready": null,
+  "scored_at": "2026-10-20T23:00:53+00:00",
+  "media_at": null,
+  "brief_at": null,
+  "opt_out": 0,
+  "socials_checked_at": null,
+  "country": "kenya",
+  "assets": [],
+  "assets_note": {
+    "preview_only": true,
+    "hero_worthy_count": 0,
+    "flagged_non_hero": []
+  },
+  "contacts": {
+    "whatsapp": "+254202731651",
+    "phone": "+254202731650",
+    "email": null,
+    "ig": null,
+    "fb": null
+  },
+  "brand": {
+    "colors": null,
+    "logo": null,
+    "tagline": ""
+  },
+  "outreach_draft": "Hello! Vital —\nI went through Accra pharmacies listing your business and noticed customers find your pharmacies listing on Google, but there is nothing behind it to browse or book — and no site of yours.\nI build one-page websites for businesses like yours: WhatsApp booking, MoMo payments, your best photos front and centre.\nI have already put together a free preview mockup based on your own photos — it is specific to your business, not a template.\nMay I send the preview images here on WhatsApp? If it is not for you, just tell me and I will not message again.\n— Emmanuel, [Studio]"
+}

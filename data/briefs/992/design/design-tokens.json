@@ -1,0 +1,232 @@
+{
+  "$schema": "https://design-tokens.org/schema.json",
+  "meta": {
+    "brand": "Mintz Lights",
+    "leadId": 992,
+    "market": "Nairobi, Kenya",
+    "version": "1.0.0",
+    "date": "2026-10-22",
+    "mode": "design",
+    "archetype": "cinematic dark — cue-console machine",
+    "sourceOfTruth": "data/briefs/992/research.json + design/brief.md",
+    "notes": "Colour is derived from the client's own assets: logo indigo #404090, drape magenta #A02060 / #E6175F family, drape periwinkle #A0B0E0, tent white #F0F0F0. No colour is invented."
+  },
+  "color": {
+    "blackout": {
+      "value": "#0B0B12",
+      "role": "dominant · page ground, stage dark",
+      "share": 0.58,
+      "contrast": { "onTent": 17.09, "onStruck": 1.08 }
+    },
+    "struck": {
+      "value": "#14141F",
+      "role": "surface · panels, preview panel, sticky bar",
+      "share": 0.18,
+      "contrast": { "withTent": 16.0, "withHaze": 7.99 }
+    },
+    "case": {
+      "value": "#1C1C29",
+      "role": "raised surface · stage ground, top gradient stop",
+      "share": 0.02
+    },
+    "tent": {
+      "value": "#F2EFE9",
+      "role": "neutral · the light band, cards, inverse type",
+      "share": 0.16,
+      "contrast": { "onBlackout": 17.09, "onPeriDeep": 7.77 }
+    },
+    "gel": {
+      "value": "#E6175F",
+      "role": "accent · LARGE display type only (>= 54px), beam light",
+      "share": 0.04,
+      "usageLimit": "never below 24px; use gel-fill or gel-label otherwise",
+      "contrast": { "onBlackout": 4.1, "onTent": 4.16, "standard": "AA large text only" }
+    },
+    "gel-fill": {
+      "value": "#C2104F",
+      "role": "control fill carrying small white text — CTA, WhatsApp pill, tagline band",
+      "contrast": { "withTent": 5.26, "standard": "AA normal text" }
+    },
+    "gel-label": {
+      "value": "#FF5D8F",
+      "role": "small mono labels on dark (cue numbers, section kickers)",
+      "contrast": { "onBlackout": 6.74, "onStruck": 6.28, "standard": "AA normal text" }
+    },
+    "gel-deep": {
+      "value": "#A02060",
+      "role": "accent ink on light — labels, tags, status dots",
+      "contrast": { "onTent": 6.38, "standard": "AA normal text" }
+    },
+    "peri": {
+      "value": "#8A8CE8",
+      "role": "soft secondary · small labels on dark, rules, icons",
+      "share": 0.03,
+      "contrast": { "onBlackout": 5.46, "onStruck": 6.09, "standard": "AA normal text" }
+    },
+    "peri-deep": {
+      "value": "#404090",
+      "role": "brand ink — sampled from the client logo, labels on light",
+      "contrast": { "onTent": 7.77 }
+    },
+    "haze": {
+      "value": "#A9ABB6",
+      "role": "body copy on dark",
+      "contrast": { "onBlackout": 8.58 }
+    },
+    "ink-mute": {
+      "value": "#57545E",
+      "role": "body copy on light",
+      "contrast": { "onTent": 6.45 }
+    },
+    "rule-dark": { "value": "#F2EFE91F", "role": "1px hairline on dark (12% tent)" },
+    "rule-light": { "value": "#0B0B121F", "role": "1px hairline on light (12% ink)" }
+  },
+  "gradient": {
+    "beam": {
+      "type": "linear",
+      "stops": ["#E6175F4D", "#E6175F0F", "#E6175F00"],
+      "rule": "light only — never used as a surface or button fill"
+    },
+    "beamCore": { "type": "linear", "stops": ["#F2EFE924", "#F2EFE900"] },
+    "lamp": { "type": "radial", "stops": ["#F2EFE9CC", "#E6175F00"] },
+    "floorPool": { "type": "radial", "stops": ["#E6175F55", "#E6175F00"] },
+    "hazeBand": { "type": "linear", "stops": ["#8A8CE800", "#E6175F1A", "#E6175F00"] },
+    "stageGround": { "type": "linear", "stops": ["#1C1C29", "#0B0B12"] }
+  },
+  "typography": {
+    "families": {
+      "display": {
+        "name": "Big Shoulders",
+        "weights": [700, 800],
+        "source": "Google Fonts",
+        "usage": "headlines, wordmark, numerals in the job log"
+      },
+      "stencil": {
+        "name": "Big Shoulders Stencil",
+        "weights": [800],
+        "source": "Google Fonts",
+        "usage": "ONE word per headline — the gobo cut. Never for body, never below 40px."
+      },
+      "body": {
+        "name": "Hanken Grotesk",
+        "weights": [400, 500, 600],
+        "source": "Google Fonts",
+        "usage": "paragraphs, descriptions, card copy"
+      },
+      "data": {
+        "name": "Spline Sans Mono",
+        "weights": [400, 500],
+        "source": "Google Fonts",
+        "usage": "cue numbers, dates, hours, payments, labels, table headers"
+      }
+    },
+    "scale": {
+      "hero": { "desktop": 88, "mobile": 54, "lineHeight": 0.86, "letterSpacing": -0.027 },
+      "section": { "desktop": 46, "mobile": 34, "lineHeight": 0.95, "letterSpacing": -0.011 },
+      "rowTitle": { "desktop": 30, "mobile": 26, "lineHeight": 1, "letterSpacing": 0.007 },
+      "subhead": { "desktop": 20, "mobile": 16, "lineHeight": 1.4 },
+      "body": { "desktop": 17, "mobile": 13, "lineHeight": 1.55 },
+      "bodySmall": { "desktop": 13, "mobile": 12, "lineHeight": 1.5 },
+      "caption": { "desktop": 12, "mobile": 11, "lineHeight": 1.4 },
+      "mono": { "desktop": 10, "mobile": 8, "letterSpacing": 0.14, "lineHeight": 1.3 },
+      "monoMicro": { "desktop": 8, "mobile": 7, "letterSpacing": 0.16, "lineHeight": 1.4 }
+    },
+    "opticalNote": "Big Shoulders is ~0.68x the width of a normal grotesque at the same size; 88 reads as ~60. This keeps the pipeline's readability floor while carrying the room.",
+    "rules": [
+      "Headline tracking is negative; body tracking is 0; mono tracking is positive.",
+      "Stencil appears once per headline, always on the verb or the destination word.",
+      "No italics except the logo's own strapline, which is an image, not type."
+    ]
+  },
+  "space": {
+    "unit": 4,
+    "scale": [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 30, 34, 40, 46, 48, 52, 56, 64],
+    "sectionPaddingDesktop": [64, 56],
+    "sectionPaddingMobile": [26, 20],
+    "grid": { "desktopContentWidth": 1328, "mobileContentWidth": 350, "columns": 4 }
+  },
+  "shape": {
+    "radius": { "default": 0, "lamp": 1, "whatsappPill": 999 },
+    "borderWidth": { "hairline": 1, "tableHead": 2 },
+    "shadows": "none — depth is made with light, not elevation",
+    "icons": { "library": "lucide", "stroke": 1.5, "sizes": [10, 11, 12, 13, 14, 16, 18] }
+  },
+  "motion": {
+    "easings": {
+      "beam": "cubic-bezier(0.16, 1, 0.30, 1)",
+      "type": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "ui": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "exit": "cubic-bezier(0.4, 0, 1, 1)"
+    },
+    "durations": { "micro": 120, "quick": 200, "base": 320, "cue": 480, "load": 1400 },
+    "trio": [
+      "masked beam wipe on load (clip-path from the lamp downward)",
+      "cue re-rig cross-fade (gel temperature + beam angle + inclusion panel)",
+      "call-sheet gel-frame slide on job-log hover/focus"
+    ],
+    "ambient": "haze drift, 24s, opacity 0.55 → 0.8 → 0.55, no transform on text",
+    "reducedMotion": "all masks and clip paths become 200ms opacity swaps; beam is static at 45°; no parallax, no cursor light; accordion opens instantly",
+    "banned": ["marquee", "ken-burns", "gold sheen", "stamp landings", "route drawing", "flip-board rows", "fade-up on everything"]
+  },
+  "components": {
+    "nav": { "height": 72, "padding": [0, 56], "links": ["THE CUES", "THE RIG", "JOB LOG", "THE DESK"], "cta": "phone pill with real number" },
+    "button": {
+      "primaryDark": { "fill": "tent", "text": "blackout", "height": 48, "padding": [16, 22], "label": "mono 11" },
+      "primaryLight": { "fill": "blackout", "text": "tent", "height": 42 },
+      "whatsapp": { "fill": "gel-fill", "text": "tent", "radius": 0, "label": "mono 10 with icon" },
+      "ghost": { "fill": "transparent", "stroke": "rule-dark", "text": "tent" }
+    },
+    "cueChip": {
+      "live": { "width": 186, "fill": "gel-fill", "text": "tent", "stamp": "CUE LIVE" },
+      "idle": { "width": 140, "fill": "struck", "stroke": "rule-dark", "text": "tent" }
+    },
+    "jobRow": { "height": 70, "columns": [112, 330, "fill", 132], "statusChip": "1px outline, gel-deep dot, mono 8" },
+    "accordionRow": { "padding": [16, 0], "rule": "1px blackout under each row", "toggle": "lucide plus / minus 16px" },
+    "messageCard": { "fill": "tent", "padding": 24, "columns": 452, "cta": "gel-fill, full width, 50 tall" },
+    "photoDrop": { "height": 96, "stroke": "1px ink 25%", "radius": 0 },
+    "stickyBarMobile": { "height": 56, "buttons": ["WHATSAPP", "PLAN A BUILD"], "fill": "struck" }
+  },
+  "breakpoints": { "mobile": 390, "tablet": 834, "desktop": 1440 },
+  "a11y": {
+    "standard": "WCAG 2.2 AA",
+    "pairsVerified": [
+      ["tent", "blackout", 17.09],
+      ["haze", "blackout", 8.58],
+      ["peri", "blackout", 5.46],
+      ["peri", "struck", 6.09],
+      ["gel-label", "blackout", 6.74],
+      ["gel-fill", "tent", 5.26],
+      ["gel-deep", "tent", 6.38],
+      ["ink-mute", "tent", 6.45],
+      ["blackout", "tent", 17.09]
+    ],
+    "knownLimits": [
+      "gel #E6175F is restricted to type >= 24px (AA large) — enforced by the three-step ramp",
+      "no image carries text; the only photo is 200px and captioned below itself"
+    ],
+    "focus": "2px gel-label ring, 2px offset, visible on dark and light",
+    "reducedMotion": "respected at the system level; all content readable with animation off"
+  },
+  "content": {
+    "language": "en",
+    "currency": "KES",
+    "paymentRail": "M-Pesa · Cash · Cheque",
+    "whatsapp": "+254757924836",
+    "office": "+254729854408",
+    "email": "mintzlights@gmail.com",
+    "hours": {
+      "monThu": "08:00–17:00",
+      "fri": "08:00–18:00",
+      "sat": "08:00–13:00",
+      "sun": "closed"
+    },
+    "placeholders": [
+      "[ YOUR VENUE PHOTO GOES HERE ]",
+      "PHOTO SLOTS OPEN",
+      "RATE ON REQUEST",
+      "PIN SENT ON WHATSAPP",
+      "FROM YOUR PAGE · 200PX · PREVIEW"
+    ],
+    "bannedCopy": ["welcome", "unforgettable", "hidden gem", "one-stop shop", "MoMo", "award-winning", "best in Nairobi", "any invented price, rating or client"]
+  }
+}

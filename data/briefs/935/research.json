@@ -1,0 +1,289 @@
+{
+  "lead_id": 935,
+  "audit_date": "2026-10-22",
+  "business": {
+    "name": "Vital Ray Medical Imaging",
+    "legal_name": "VitalRay Health Solutions Limited",
+    "trading_names": ["VitalRay", "VitalRay Medical Imaging", "Vitalray Health Solutions", "VHS"],
+    "category_claimed": "pharmacies",
+    "category_verified": "radiology / diagnostic imaging (MRI, CT, ultrasound, digital X-ray), laboratory, day-care unit",
+    "facility_type": "private level-4 outpatient facility (MFL code 26795)",
+    "city": "Nairobi",
+    "areas": ["Upper Hill", "Westlands"],
+    "country": "kenya",
+    "addresses": [
+      "Ground Floor, Mayfair Centre, Ralph Bunche Road, Upper Hill, Nairobi",
+      "Ground Floor, Grenadier Tower, Woodvale Grove, Westlands, Nairobi"
+    ],
+    "postal_address": "P.O. Box 12981-00100, Nairobi",
+    "operating_hours": "Mon-Fri 07:00-20:00, Sat 08:00-18:00, Sun & public holidays closed",
+    "founded": "disputed: 2012 (Tracxn) vs 2014 (Press release, LinkedIn)",
+    "employees": "~37 (LinkedIn, Tracxn Jul 2026); third-party estimates range 17-55",
+    "languages": ["en", "sw (inferred; not observed)"],
+    "description_verified": "Outpatient diagnostic centre offering MRI, CT, ultrasound, digital X-ray, ECG/echo, laboratory and day-care, with reports sent directly to referring doctors; two Nairobi branches; contracted with most major Kenyan insurers and NHIF/SHA.",
+    "payment_methods": ["insurance billing (APA, Old Mutual, Jubilee, CIC, Sanlam, Madison, Heritage, GA, First Assurance, Minet/AON, Henner, Takaful)", "NHIF / SHA", "cash", "M-Pesa (desk-level, not advertised online)"],
+    "currency": "KES",
+    "decision_makers": [
+      {
+        "name": "Dr. Unni Miyengi",
+        "role": "CEO and Chief Radiologist (since Mar 2014)",
+        "source": "https://linkedin.com/in/dr-unni-miyengi-85a26a4",
+        "confidence": "Medium-High"
+      },
+      {
+        "name": "Reuben Warriah",
+        "role": "Founder / named representative on 2024 bank facility",
+        "source": "https://prtimes.jp/main/html/rd/p/000000046.000115382.html and AAIC portfolio page",
+        "confidence": "Medium"
+      }
+    ]
+  },
+  "website": {
+    "verified_url": "https://vitalray.com/",
+    "claimed_in_dossier": "https://www.googletagmanager.com/gtag/js?id=G-Z6HX57VF8P",
+    "stack": "WordPress, theme 'better-health', Ninja Forms, Yoast sitemaps",
+    "https": true,
+    "mobile_viewport": true,
+    "pages_checked": "13/13 returned 200 or clean 301",
+    "last_content_update": "2025-11-28 (careers page); blog dormant since 2021-01-05",
+    "booking": "no online booking form — 'Book an appointment' page instructs patients to walk in or phone",
+    "contact_path": "two branch addresses, switchboard, two mobiles, info@vitalray.com, message form"
+  },
+  "website_status": "OK",
+  "website_status_detail": "Live, secure, mobile-ready and maintained, with insurance/billing pages and a patient portal section. Not 'strong': no online booking, blog dead since 2021, broken header location links, dated theme, service tiles too small for hero use. No WhatsApp link anywhere.",
+  "evidence": [
+    {
+      "claim": "Website is live on HTTPS with a mobile viewport and 13 reachable pages",
+      "source": "https://vitalray.com/ (curl 200, viewport meta present, nav crawl)",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "'Book an appointment' page contains no booking form",
+      "source": "https://vitalray.com/patients-portal/book-appointment/",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Two branches, hours and contact numbers published",
+      "source": "https://vitalray.com/find-us-in-here-westlands-and-upperhill/",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Listed as an imaging provider on Jubilee 2025 and CIC Afya Bora 2026 panels",
+      "source": "https://jubileeinsurance.com/ke/wp-content/uploads/2025/05/JHIL-2025-Panel.pdf ; https://ke.cicinsurancegroup.com/wp-content/uploads/2026/08/AFYA-BORA-PROVIDER-PANEL-2026-1.pdf",
+      "date": "2025 / 2026-08",
+      "confidence": "High"
+    },
+    {
+      "claim": "Private level-4 facility, MFL code 26795, seven-day opening",
+      "source": "https://hosi.co.ke/hospitals/vitalray-health-solutions/ ; https://kmhfr.health.go.ke",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "VC-backed by AAIC; Japanese bank facility April 2024",
+      "source": "https://aaicinvestment.com/ ; https://prtimes.jp/main/html/rd/p/000000046.000115382.html",
+      "date": "2024-04-15",
+      "confidence": "High"
+    },
+    {
+      "claim": "CEO and Chief Radiologist is Dr. Unni Miyengi",
+      "source": "https://linkedin.com/in/dr-unni-miyengi-85a26a4 ; https://rocketreach.co/vitalray-health-solutions-management_b416497fff948959",
+      "date": "2026-08-29",
+      "confidence": "Medium-High"
+    },
+    {
+      "claim": "Google rating 3.4 from 35 reviews; recurring complaints about wait times and communication",
+      "source": "https://on-mend.com/providers/profiles/hospitals/vitalray-health-solutions-nairobi-kenya",
+      "date": "page updated 2026-06-30",
+      "confidence": "Medium"
+    },
+    {
+      "claim": "Content is stale: blog sitemap last modified 2021-01-05",
+      "source": "https://vitalray.com/sitemap_index.xml",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Certificate renewed Aug 2026, valid to Nov 2026 — site is being maintained",
+      "source": "openssl s_client against vitalray.com:443",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "No WhatsApp link or wa.me reference anywhere on the site",
+      "source": "grep of homepage and contact page markup",
+      "date": "2026-10-22",
+      "confidence": "High"
+    }
+  ],
+  "contacts": [
+    {
+      "type": "switchboard",
+      "value": "+254202731650",
+      "also": "+254202731651",
+      "status": "verified-published",
+      "source": "https://vitalray.com/find-us-in-here-westlands-and-upperhill/",
+      "confidence": "High",
+      "note": "The dossier's 'whatsapp' +254202731651 is the second switchboard line, not a mobile or WhatsApp."
+    },
+    {
+      "type": "mobile",
+      "value": "+254705120400",
+      "status": "verified-published",
+      "source": "vitalray.com footer, LinkedIn, CB Insights",
+      "confidence": "High"
+    },
+    {
+      "type": "mobile",
+      "value": "+254737556119",
+      "status": "verified-published",
+      "source": "vitalray.com footer, LinkedIn, Jubilee panel",
+      "confidence": "High"
+    },
+    {
+      "type": "mobile_panel",
+      "value": "+254706395334",
+      "status": "published-on-insurer-panel",
+      "source": "CIC Afya Bora provider panel 2026",
+      "confidence": "Medium",
+      "note": "Appears only on the insurer panel, not on the company's own site."
+    },
+    {
+      "type": "email",
+      "value": "info@vitalray.com",
+      "status": "verified-published",
+      "source": "every page footer of vitalray.com; LinkedIn",
+      "confidence": "High"
+    }
+  ],
+  "socials": {
+    "facebook": {
+      "url": "https://www.facebook.com/VitalRayHealthSolutions",
+      "status": "unverified",
+      "confidence": "Low",
+      "note": "Logged-out fetch blocked; a 2018 post appears in search results. No recent activity confirmed."
+    },
+    "instagram": {"status": "not found", "note": "Searched by business name and location; no attributable handle."},
+    "tiktok": {"status": "not found", "note": "Searched by business name; no attributable account."},
+    "linkedin": {"url": "https://ke.linkedin.com/company/vitalray-medical-imaging", "status": "active-profile", "confidence": "High"}
+  },
+  "assets": [
+    {"url": "https://vitalray.com/wp-content/uploads/2019/06/vhslogo.png", "platform": "own site", "type": "image", "resolution": "744x300", "date": "2019", "quality": "clean logo, no watermark", "tag": "logo", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/01/vitalray_slider1a.jpg", "platform": "own site", "type": "image", "resolution": "1900x600", "date": "2021-01", "quality": "sharp wide banner", "tag": "hero-worthy", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/01/vitalray-slider2.jpg", "platform": "own site", "type": "image", "resolution": "1900x600", "date": "2021-01", "quality": "sharp wide banner", "tag": "hero-worthy", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/01/vitalray-slider3.jpg", "platform": "own site", "type": "image", "resolution": "1900x600", "date": "2021-01", "quality": "sharp wide banner", "tag": "hero-worthy", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/01/vitalray-slider4.jpg", "platform": "own site", "type": "image", "resolution": "unverified", "date": "2021-01", "quality": "download timed out twice", "tag": "hero-worthy (expected)", "preview_only": true, "verified": false},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/01/vitalray-slider5.jpg", "platform": "own site", "type": "image", "resolution": "1900x600", "date": "2021-01", "quality": "sharp wide banner", "tag": "hero-worthy", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/02/radiology-services4.jpg", "platform": "own site", "type": "image", "resolution": "400x400", "date": "2021-02", "quality": "below hero floor", "tag": "product/service", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/02/laboratory-services4.jpg", "platform": "own site", "type": "image", "resolution": "~400px", "date": "2021-02", "quality": "below hero floor", "tag": "product/service", "preview_only": true, "verified": true},
+    {"url": "https://vitalray.com/wp-content/uploads/2021/02/Day-care-services4.jpg", "platform": "own site", "type": "image", "resolution": "~400px", "date": "2021-02", "quality": "below hero floor", "tag": "product/service", "preview_only": true, "verified": true}
+  ],
+  "brand": {
+    "logo": "https://vitalray.com/wp-content/uploads/2019/06/vhslogo.png",
+    "tagline": "Outpatient hospital providing fast and friendly service with accurate medical reports",
+    "colors": null,
+    "colors_note": "Not sampled; logo is red/blue on white, but exact hexes were not extracted.",
+    "services": ["MRI", "CT scan", "Ultrasound", "Digital X-ray", "ECG / Echo", "Laboratory", "Day care / oncology support"],
+    "prices": "not found — no scan or lab pricing published on any reachable page",
+    "notable_reviews_paraphrased": [
+      "Referring doctors praise convenience of evening hours and colour scan output (site testimonials).",
+      "Google reviewers repeatedly cite long waits and poor communication over report timing; a few report excellent care and clean facilities."
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Precise Diagnostic Imaging",
+      "url": "https://precisediagnostic.co.ke/",
+      "compare": "Only same-street rival with a live website (HTTP 200, 'Precise Diagnostic Imaging – Home'). Direct competitor for the same referral base."
+    },
+    {
+      "name": "Plaza MRI",
+      "url": null,
+      "compare": "Same street (General Accident House, Ralph Bunche Rd) and same insurer panels; no resolving domain found (plazamri.co.ke / .com NXDOMAIN), so VitalRay's site already puts it ahead."
+    },
+    {
+      "name": "Nairobi Imaging Solutions",
+      "url": null,
+      "compare": "Also General Accident House; listed alongside VitalRay on the Jubilee panel. No own domain found, directory presence only."
+    },
+    {
+      "name": "Sonar Imaging Centre",
+      "url": null,
+      "compare": "Fortis Suites, ground floor — another Upper Hill imaging provider with directory-only presence."
+    }
+  ],
+  "score": {
+    "weights": {"health": 0.25, "readiness": 0.2, "need": 0.2, "pay": 0.15, "reach": 0.1, "assets": 0.1},
+    "old": {"total": 48, "tier": "C"},
+    "new": {"total": 70, "tier": "B"},
+    "confidence": "high for health/readiness/need; medium for pay and reach",
+    "factors": [
+      {"name": "health", "old": 4, "new": 9, "reason": "Two branches, ~37 staff, insurer panels in 2025 and 2026, bank facility 2024, site still maintained.", "source": "Jubilee/CIC panels; Tracxn; PR Times"},
+      {"name": "readiness", "old": 5, "new": 8, "reason": "Full site with insurance/billing pages, email, portal sections — missing only online booking and WhatsApp.", "source": "https://vitalray.com/"},
+      {"name": "need", "old": 3, "new": 4, "reason": "Gap is real but narrow: booking CTA has no form, blog dead since 2021, header location links broken.", "source": "https://vitalray.com/patients-portal/book-appointment/"},
+      {"name": "pay", "old": 7, "new": 9, "reason": "VC-backed, insurance-billed revenue and a 2024 bank facility — highest ability to pay in this folder.", "source": "https://aaicinvestment.com/ ; PR Times 2024-04-15"},
+      {"name": "reach", "old": 8, "new": 5, "reason": "No WhatsApp exists; switchboard gatekeeps; CEO identified but no direct channel.", "source": "site contact page; LinkedIn"},
+      {"name": "assets", "old": 3, "new": 5, "reason": "Logo plus four 1900x600 banners usable immediately; no current photography or video.", "source": "vitalray.com uploads"}
+    ]
+  },
+  "tier": "B",
+  "recommendation": "DROP",
+  "recommendation_reason": "Fit disqualifier, not inactivity: they already run a live, maintained, multi-page site with insurance content, and have in-house ICT. The pipeline's product (a one-page site with WhatsApp booking) is a downgrade, and the recorded WhatsApp number does not exist. Only a booking-funnel rebuild at professional-services pricing would be an honest offer — a different product.",
+  "outreach": {
+    "draft_produced": false,
+    "reason": "Do not contact on the current premise. 'No site of yours' is false and the WhatsApp channel in the dossier is a landline extension; sending the draft would burn the lead.",
+    "if_reopened": "Only as a booking / report-request funnel rebuild, pitched to Dr. Unni Miyengi (CEO) via info@vitalray.com or the switchboard — never as 'you have no website'.",
+    "language": "en",
+    "channel_if_any": "email or switchboard — no WhatsApp",
+    "variants": [],
+    "followups": []
+  },
+  "flags": [
+    "Outreach says 'Accra' — wrong city and country; the business is in Nairobi, Kenya.",
+    "Category recorded as 'pharmacies'; it is a radiology and diagnostic-imaging centre with lab and day care.",
+    "Website field is a Google Tag Manager gtag script; container G-Z6HX57VF8P is shared with leads 921 and 992.",
+    "Recorded 'WhatsApp' +254202731651 is switchboard extension 651 of 020 2731650/651, not a mobile or WhatsApp.",
+    "Pitch claims 'no site of yours' — vitalray.com has been live for years and was edited in Nov 2025.",
+    "Pitch claims a finished preview mockup 'based on your own photos' while assets = 0.",
+    "Pitch names MoMo; Kenya uses M-Pesa and this business bills mostly through insurers.",
+    "Email missing from the record although info@vitalray.com is published sitewide.",
+    "pay 7 justified by 'premium category (pharmacies)' — wrong category, wrong basis.",
+    "'strongest selling point: Pay and Health' contradicts health 4/10 'unverified active'.",
+    "city, address, coordinates and region all null — summary prints '?'.",
+    "Name variants (Vital Ray / VitalRay / Vitalray) create dedupe risk on future scans.",
+    "Founded year disputed: 2012 (Tracxn) vs 2014 (press release, LinkedIn).",
+    "Site defects: broken header location links (href='#' and tel: with an address), booking page with no form, blog dormant since 2021."
+  ],
+  "sources": [
+    "https://vitalray.com/",
+    "https://vitalray.com/patients-portal/book-appointment/",
+    "https://vitalray.com/find-us-in-here-westlands-and-upperhill/",
+    "https://vitalray.com/radiology-mri-ctscan-xray-ultrasound/",
+    "https://vitalray.com/sitemap_index.xml",
+    "https://jubileeinsurance.com/ke/wp-content/uploads/2025/05/JHIL-2025-Panel.pdf",
+    "https://ke.cicinsurancegroup.com/wp-content/uploads/2026/08/AFYA-BORA-PROVIDER-PANEL-2026-1.pdf",
+    "https://hosi.co.ke/hospitals/vitalray-health-solutions/",
+    "https://kmhfr.health.go.ke/public/facilities/07631bfc-3ed6-484a-8f18-fe50645e3844",
+    "https://aaicinvestment.com/",
+    "https://prtimes.jp/main/html/rd/p/000000046.000115382.html",
+    "https://linkedin.com/in/dr-unni-miyengi-85a26a4",
+    "https://ke.linkedin.com/company/vitalray-medical-imaging",
+    "https://tracxn.com/d/companies/vitalray/__1B9xNos4a04X44qvGrsZF6NEIsclXBTzLwZZN8uJfcY",
+    "https://on-mend.com/providers/profiles/hospitals/vitalray-health-solutions-nairobi-kenya",
+    "https://ke.africabz.com/nairobi/vitalray-health-solutions-220167",
+    "https://precisediagnostic.co.ke/",
+    "https://www.medpages.info/sf/index.php?orgcode=381915&page=organisation"
+  ],
+  "unverified": [
+    {"target": "https://www.facebook.com/VitalRayHealthSolutions", "reason": "Logged-out fetch blocked; only a 2018 post visible via search index. No current activity confirmed."},
+    {"target": "https://vitalray-health-solutions.business.site", "reason": "HTTP 404 — dead, though on-mend.com still lists it as the booking portal."},
+    {"target": "https://www.google.com/maps/search/Vitalray+Mayfair+Centre", "reason": "JavaScript shell; no listing or review data in HTML. Rating (3.4 / 35) taken from on-mend."},
+    {"target": "https://vitalray.com/wp-content/uploads/2021/01/vitalray-slider4.jpg", "reason": "Download timed out twice; dimensions unconfirmed."},
+    {"target": "Instagram / TikTok", "reason": "No handle found for VitalRay after searching by name and location — not found."},
+    {"target": "Scan and lab pricing", "reason": "Not published on radiology, laboratory, billing or insurance pages — not found."},
+    {"target": "Revenue figure", "reason": "Only third-party estimates ($9.2M, datanyze/rocketreach); no published figure. Not used in scoring."}
+  ]
+}

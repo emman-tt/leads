@@ -1,0 +1,53 @@
+Vital Ray Medical Imaging — lead #935
+VERDICT: DO NOT CONTACT — no outreach draft produced
+Audit: 2026-10-22
+
+Reason: the lead does not fit the offer, and the draft on file is factually wrong
+in three ways that would burn it on the first line.
+
+WHAT THE DRAFT WOULD HAVE GOTTEN WRONG
+1. "I went through Accra pharmacies listing" — the business is in Nairobi, Kenya,
+   on Ralph Bunche Road, Upper Hill, with a second branch in Westlands.
+2. "no site of yours" — vitalray.com is live, HTTPS, mobile-ready, with a patient
+   portal section, insurance-partner pages, billing info and downloadable forms.
+   It was last edited in November 2025 and its TLS certificate was renewed in
+   August 2026. They have a site, and someone maintains it.
+3. "MoMo payments" — Kenya. And this business bills mostly through insurance
+   (Jubilee, CIC, APA, Old Mutual, Sanlam, Madison, NHIF/SHA), not mobile money.
+4. "I have already put together a free preview mockup based on your own photos" —
+   no assets were ever collected for this lead. Nothing exists.
+
+Plus: the number recorded as WhatsApp (+254 202731651) is the second line of the
+switchboard (020 2731650 / 651). It is not a mobile and not a WhatsApp. There is
+no WhatsApp channel on their site at all.
+
+WHY THIS IS A DROP, NOT A HOLD
+- They are a funded, level-4 diagnostic centre: two branches, ~37 staff, VC
+  backing (AAIC), a 2024 bank facility, and panels with most major Kenyan
+  insurers. They can pay — that was never the problem.
+- They have in-house technical staff (a GM of ICT is listed publicly) and a
+  site that already ranks for their services. A one-page template would be a
+  downgrade and they will know it.
+- Healthcare marketing is regulated; a hand-built one-pager for a facility that
+  handles referrals and insurer claims is not a credible offer.
+- The team is not reachable by WhatsApp, so the pipeline's usual channel does
+  not exist here.
+
+WHAT WOULD ACTUALLY BE WORTH PITCHING (different product, not this one)
+Their one genuine gap: "Book an appointment" goes to a page that says walk in or
+phone — there is no form, no request-a-scan flow, no report-request login, and
+their Google rating sits at 3.4/35 with repeated complaints about waiting times
+and not knowing when reports are ready. A booking + report-status funnel would
+answer a real complaint. That is a professional-services build, sold to
+Dr. Unni Miyengi (CEO and Chief Radiologist) via info@vitalray.com or the
+switchboard — not a WhatsApp one-pager.
+
+Since no fitting offer exists in the current pipeline, no WhatsApp variants or
+follow-ups are provided, per the rule on leads that should not be contacted.
+
+NEXT PIPELINE ACTION (suggested)
+- Mark #935 as disqualified in the pipeline with reason "existing maintained site".
+- Fix the class of bug that produced this lead: a `googletagmanager.com/gtag/js`
+  value is being stored as `website` (same container G-Z6HX57VF8P appears on
+  leads 921, 935 and 992), and a switchboard extension pair is being promoted to
+  `whatsapp`. Both will keep generating false "no website" pitches.

@@ -1,0 +1,24 @@
+# Afrikiko — Accra (DISQUALIFIED, 0 / 100)
+
+- Category: restaurants
+- Website: unknown — — (None weakness)
+- Language: en · Area: — · GhanaPost: —
+- Contacts: WA — · —
+- Assets: 0 previews (preview-only) · hero-ready 0
+
+## Score factors
+— disqualified:
+  no_working_contact
+
+**Why pitch:** no_working_contact
+**Likely objection:** n/a
+
+## Outreach draft (WhatsApp)
+```
+Hello! Afrikiko —
+I went through Accra restaurants listing your business and noticed customers find your restaurants listing on Accra, but there is nothing behind it to browse or book — and no site of yours.
+I build one-page websites for businesses like yours: WhatsApp booking, MoMo payments, your best photos front and centre.
+I have already put together a free preview mockup based on your own photos — it is specific to your business, not a template.
+May I send the preview images here on WhatsApp? If it is not for you, just tell me and I will not message again.
+— Emmanuel, [Studio]
+```

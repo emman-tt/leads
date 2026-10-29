@@ -1,0 +1,383 @@
+{
+  "lead_id": 992,
+  "audit_date": "2026-10-22",
+  "business": {
+    "name": "Mintz Lights",
+    "also_known_as": "MINTZ Lights / Mintzlights",
+    "category_claimed": "event_organisers",
+    "category_verified": "event lighting, décor & styling, equipment and truck hire",
+    "city": "Nairobi",
+    "area": "Ridgeways / Kigwa Road",
+    "country": "kenya",
+    "address_verified": "46 Kigwa Road, Ridgeways, Nairobi",
+    "address_claimed": "P.O.Box: 6185 - 00300 Nairobi",
+    "postal_address": "P.O. Box 6185-00300, Nairobi",
+    "operating_hours": "Mon-Fri 08:00-17:00 (Fri to 18:00), Sat 08:00-13:00, Sun closed",
+    "established": "operating since at least 2016 ('over a decade' per own listing) — exact year not published",
+    "languages": ["en", "sw (inferred from Nairobi customer base; not observed in posts)"],
+    "description_verified": "Luxury event planning and styling for birthdays, weddings, ruracios and corporate events; event lighting design, décor, rustic furniture and tents/seating hire, plus trucks for event logistics.",
+    "payment_methods": ["M-Pesa", "Cash", "Cheque"],
+    "currency": "KES",
+    "decision_maker": {
+      "name": "Lucy Mburu",
+      "role": "Event Planner at Mintz lights (public LinkedIn role, Aug 2016 - present)",
+      "confidence": "Medium",
+      "note": "Business role only. Ownership is not publicly stated; do not address her as owner without confirmation."
+    }
+  },
+  "website": {
+    "claimed_in_dossier": "https://www.googletagmanager.com/gtag/js?id=G-Z6HX57VF8P",
+    "claimed_by_business": "https://www.mintzlights.com/ (on own Facebook page and goafricaonline)",
+    "legacy_domain": "www.mintzbergevents.co.ke (worldplaces listing)",
+    "directory_url": "https://www.mintzlights.yellowpageskenya.com (Yellow Pages' own website field)"
+  },
+  "website_status": "NONE",
+  "website_status_detail": "No live site. mintzlights.com, mintzbergevents.co.ke, mintzlights.co.ke and www.mintzlights.yellowpageskenya.com all return NXDOMAIN (Google DNS status 3, A and NS empty) on 2026-10-22. No HTTPS, mobile or booking path to assess.",
+  "evidence": [
+    {
+      "claim": "Business is active; posts almost daily through 1 Oct 2026",
+      "source": "https://www.evepla.com/KE/Nairobi/1473399672955768/MINTZ-Lights",
+      "date": "posts dated 2026-09-21 to 2026-10-01; page read 2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Own Facebook page: facebook.com/mintzlights (page id 1473399672955768)",
+      "source": "https://www.evepla.com/KE/Nairobi/1473399672955768/MINTZ-Lights",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Physical address 46 Kigwa Road, Ridgeways, Nairobi",
+      "source": "https://www.evepla.com/KE/Nairobi/1473399672955768/MINTZ-Lights ; https://www.yellowpageskenya.com/business-category/events/business-details/2852069-mintz-lights",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Payment modes: Cash, M-Pesa, Cheque",
+      "source": "https://www.yellowpageskenya.com/business-category/events/business-details/2852069-mintz-lights",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Services: event lighting, décor, tents/seating/carpets, truck hire, event logistics",
+      "source": "https://www.yellowpageskenya.com/business-category/events/business-details/2852069-mintz-lights ; EvePla posts",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "4.6-star rating, top event-management company in Kigwa near Garden Estate",
+      "source": "https://www.beyondforest.org/post/garden-estate-nairobi",
+      "date": "2025-01-15",
+      "confidence": "Medium"
+    },
+    {
+      "claim": "4 Google-derived reviews; listing phone ends 924*** (matches +254 757 924 836)",
+      "source": "https://www.keonline.biz/business/207628-mintslights",
+      "date": "undated, read 2026-10-22",
+      "confidence": "Low"
+    },
+    {
+      "claim": "Current email mintzlights@gmail.com (from business's own post footer)",
+      "source": "https://www.evepla.com/KE/Nairobi/1473399672955768/MINTZ-Lights (Cloudflare-obfuscated mailto decoded)",
+      "date": "posts 2026-09 to 2026-10",
+      "confidence": "High"
+    },
+    {
+      "claim": "Legacy directory email mintzbergservices@gmail.com",
+      "source": "https://www.yellowpageskenya.com/business-category/events/business-details/2852069-mintz-lights",
+      "date": "2026-10-22",
+      "confidence": "High that it is listed; outdated versus own posts"
+    },
+    {
+      "claim": "Public business role: Lucy Mburu, Event Planner at Mintz lights since Aug 2016",
+      "source": "https://linkedin.com/in/lucy-mburu-20b0ba65",
+      "date": "2026-10-15",
+      "confidence": "Medium"
+    },
+    {
+      "claim": "All four advertised domains do not resolve (NXDOMAIN)",
+      "source": "https://dns.google/resolve?name=mintzlights.com&type=A (and .co.ke variants); local resolver cross-check",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Official page avatar resolves and is 480x480 JPEG",
+      "source": "https://graph.facebook.com/1473399672955768/picture?type=large",
+      "date": "2026-10-22",
+      "confidence": "High"
+    }
+  ],
+  "contacts": [
+    {
+      "type": "whatsapp",
+      "value": "+254757924836",
+      "status": "verified-current",
+      "source": "every Facebook post Sep-Oct 2026 ('Call/WhatsApp'), plus YP Kenya, EvePla, beyondforest (0757924836), keonline (masked 924***)",
+      "confidence": "High",
+      "note": "Primary outreach channel."
+    },
+    {
+      "type": "phone",
+      "value": "+254729854408",
+      "status": "verified-listed",
+      "source": "Yellow Pages Kenya, Apex Business Pages, WorldPlaces, EvePla address block",
+      "confidence": "High that it is published; confidence it is answered is Medium (older directory line, not used in 2026 posts)"
+    },
+    {
+      "type": "email_current",
+      "value": "mintzlights@gmail.com",
+      "status": "verified-current",
+      "source": "business's own Facebook post footers, Sep-Oct 2026",
+      "confidence": "High"
+    },
+    {
+      "type": "email_legacy",
+      "value": "mintzbergservices@gmail.com",
+      "status": "listed-only",
+      "source": "Yellow Pages Kenya listing",
+      "confidence": "High that it is listed; may be stale"
+    }
+  ],
+  "socials": {
+    "facebook": {
+      "url": "https://www.facebook.com/mintzlights/",
+      "page_id": "1473399672955768",
+      "status": "active",
+      "last_verified_post": "2026-10-01",
+      "confidence": "High",
+      "note": "Direct fetch blocked (HTTP 400 without login); content verified through EvePla mirror."
+    },
+    "instagram": {
+      "url": "https://www.instagram.com/mintzlights/",
+      "status": "unverified",
+      "confidence": "Low",
+      "note": "Handle returns 200 but only a login wall; API 401. Existence not confirmed."
+    },
+    "tiktok": {
+      "url": "https://www.tiktok.com/@mintzlights",
+      "status": "unverified",
+      "confidence": "Low",
+      "note": "Profile HTML blocked; oEmbed 400. A @MintzLights short-video post appeared in a search index only."
+    }
+  },
+  "assets": [
+    {
+      "url": "https://graph.facebook.com/1473399672955768/picture?type=large",
+      "platform": "facebook",
+      "type": "image",
+      "resolution": "480x480",
+      "date": "asset id indicates 2023 upload",
+      "quality": "sharp graphic, no watermark, below 1080px hero floor",
+      "tag": "logo",
+      "preview_only": true,
+      "verified": true
+    },
+    {
+      "url": "https://api.yellowpageskenya.com/images/KEN/logos/23043.WebP",
+      "platform": "yellowpageskenya",
+      "type": "image",
+      "resolution": "205x240",
+      "date": "unknown",
+      "quality": "low-resolution duplicate of the logo",
+      "tag": "logo",
+      "preview_only": true,
+      "verified": true
+    },
+    {
+      "url": null,
+      "platform": "facebook",
+      "type": "image-set",
+      "resolution": "unknown",
+      "date": "2026-09-21 to 2026-10-01",
+      "quality": "unassessable",
+      "tag": "venue / event / product-service (expected)",
+      "preview_only": true,
+      "verified": false,
+      "note": "Posts clearly contain setup photos (lighting builds, rustic furniture, Garissa load-out, Evoria SPA). Media URLs are not reachable without login, so none are asserted here. Ask the business to share them."
+    },
+    {
+      "url": null,
+      "platform": "unknown (likely tiktok)",
+      "type": "video",
+      "resolution": "unknown",
+      "date": "hours before crawl (2026-10)",
+      "quality": "unassessable",
+      "tag": "event",
+      "preview_only": true,
+      "verified": false,
+      "note": "Two clips, 0:31 and 0:27, attributed to @MintzLights by a search index; platform and URLs unconfirmed."
+    }
+  ],
+  "brand": {
+    "logo": "https://graph.facebook.com/1473399672955768/picture?type=large",
+    "tagline": "Luxury event planning & styling for birthdays, weddings, ruracios & corporate events",
+    "colors": null,
+    "colors_note": "Not extractable from a 480px avatar; no site CSS available.",
+    "services": [
+      "Event lighting design and installation",
+      "Décor and styling (luxury, rustic, country themes)",
+      "Furniture and equipment hire (crate tables, director chairs, hay bales, tents, seating, carpets)",
+      "Truck hire and event logistics",
+      "Corporate events, weddings, birthdays, ruracios, product launches"
+    ],
+    "prices": "not found — no pricing published on any reachable page",
+    "notable_work": [
+      "Evoria SPA fit-out, Adyen Plaza, Ngara (Sep 2026)",
+      "Event setup delivered in Garissa (Sep 2026)"
+    ],
+    "reviews_paraphrased": [
+      "Described as very reliable and highly recommended in a Garden Estate neighbourhood guide (4.6 stars)."
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Events & Party Rentals",
+      "url": "https://eventsandpartyrentals.co.ke/our-services/lights-and-chandeliers-for-hire-in-nairobi/",
+      "compare": "Closest comparable: lighting and chandelier hire across 68 Nairobi areas with a published price list (fairy lights from KSh 2,500, chandeliers from KSh 10,000) and WhatsApp booking. Ranks for exactly the query Mintz needs."
+    },
+    {
+      "name": "Dacia Events",
+      "url": "https://daciaevents.com/",
+      "compare": "Full production house with a 17-set event gallery and named brand clients (Safaricom, KCB, Heineken). Sets the visual bar Mintz would be measured against."
+    },
+    {
+      "name": "Onyx Kenya",
+      "url": "https://onyx-events.co.ke/event-lighting/",
+      "compare": "Corporate AV and lighting since 2000, Riverside Drive. Stronger technical positioning; competes for the corporate half of Mintz's work."
+    }
+  ],
+  "score": {
+    "weights": {"health": 0.25, "readiness": 0.2, "need": 0.2, "pay": 0.15, "reach": 0.1, "assets": 0.1},
+    "old": {"total": 48, "tier": "C"},
+    "new": {"total": 72, "tier": "B"},
+    "confidence": "medium-high",
+    "factors": [
+      {
+        "name": "health",
+        "old": 4,
+        "new": 8,
+        "reason": "Near-daily Facebook posting through 1 Oct 2026, active client jobs, trading 10+ years.",
+        "source": "https://www.evepla.com/KE/Nairobi/1473399672955768/MINTZ-Lights"
+      },
+      {
+        "name": "readiness",
+        "old": 5,
+        "new": 7,
+        "reason": "WhatsApp and current email published and answered-to in posts, but no site, no price list, no booking form.",
+        "source": "Facebook posts Sep-Oct 2026; DNS checks"
+      },
+      {
+        "name": "need",
+        "old": 3,
+        "new": 9,
+        "reason": "Both domains they advertise are dead and their directory links are broken — the gap is total, not partial.",
+        "source": "https://dns.google/resolve?name=mintzlights.com&type=A"
+      },
+      {
+        "name": "pay",
+        "old": 7,
+        "new": 6,
+        "reason": "Corporate jobs, an SPA fit-out and paid truck hire imply real budget, but no public pricing to confirm spend.",
+        "source": "EvePla posts 2026-09-23 to 2026-10-01"
+      },
+      {
+        "name": "reach",
+        "old": 8,
+        "new": 9,
+        "reason": "One WhatsApp number printed in every post with an explicit 'call/DM to book' invitation.",
+        "source": "EvePla posts; Yellow Pages Kenya"
+      },
+      {
+        "name": "assets",
+        "old": 3,
+        "new": 2,
+        "reason": "Only a 480x480 logo is verifiable; the abundant real photos sit behind a login wall.",
+        "source": "https://graph.facebook.com/1473399672955768/picture?type=large"
+      }
+    ]
+  },
+  "tier": "B",
+  "recommendation": "PURSUE",
+  "recommendation_reason": "Active within 21 days, no working site at all, WhatsApp verified on their own current posts, private business. Tier A is reachable once their photo library is in hand.",
+  "outreach": {
+    "language": "en",
+    "channel": "whatsapp",
+    "payment_reference": "M-Pesa",
+    "variants": [
+      {
+        "id": "A",
+        "style": "warm / short",
+        "text": "Hi Mintz Lights 👋 Emmanuel here. I saw your posts from late September — the Garissa load-out and the lighting builds — and went looking for the site on your page. mintzlights.com doesn't load anymore, so anyone who taps it just hits a dead end.\n\nI build simple one-page sites for event and décor companies in Nairobi: gallery, packages, a WhatsApp button, M-Pesa deposit note. I can mock one up from your own photos and send you a screenshot — no charge to look.\n\nWant me to? If it's not a priority, just say so and I won't come back. — Emmanuel"
+      },
+      {
+        "id": "B",
+        "style": "detailed",
+        "text": "Hi Mintz Lights, Emmanuel here. Found you through your Facebook page — the setups you posted in the last week of September, the truck hire, the Evoria SPA styling in Ngara. You're clearly busy, and the work looks good.\n\nOne gap though: the website on your page, mintzlights.com, no longer resolves, and the directories still show your old P.O. Box and two different numbers. Someone who searches \"event lighting Nairobi\" lands on competitors with price pages instead of you.\n\nWhat I build: one clean page — your best setups up top, three packages (lighting, décor/rustic furniture, truck + logistics), WhatsApp booking, M-Pesa deposit note, and 46 Kigwa Road with a map pin. Fast on mobile data.\n\nI haven't built anything for you yet. Say the word and I'll do a free first draft using your own photos and send a screenshot right here. If it's not a priority, tell me and I'll stop. — Emmanuel"
+      }
+    ],
+    "followups": [
+      {
+        "day": 3,
+        "text": "Hi Emmanuel here, following up on the Mintz Lights site idea. Quick one: when someone taps the website link on your Facebook page today, it goes nowhere — that's the only reason I messaged. Should I put together that free draft, or park it? One word is fine."
+      },
+      {
+        "day": 7,
+        "text": "Last note from me, promise. If a one-page site with your setups and a WhatsApp booking button is useful later — say before a busy wedding season — the offer stands and the draft is still free. If not, no problem at all, I'll leave it here. All the best with the Garissa-type jobs 🙏 — Emmanuel"
+      }
+    ],
+    "claims_allowed": [
+      "mintzlights.com does not resolve (verified 2026-10-22)",
+      "they post event work frequently, incl. Garissa load-out and Evoria SPA styling (verified posts Sep-Oct 2026)",
+      "they offer lighting, décor, furniture and truck hire (their own copy)",
+      "they accept M-Pesa (their own listing)"
+    ],
+    "claims_banned": [
+      "preview, mockup or screenshots already exist",
+      "'your photos' are in hand",
+      "MoMo / mobile money wording (Kenya = M-Pesa)",
+      "review counts or ratings quoted as current fact",
+      "any claim to have visited or met them"
+    ]
+  },
+  "flags": [
+    "Website field is a Google Tag Manager gtag script, and its container id G-Z6HX57VF8P is shared with leads 921 and 935 — misattributed tag.",
+    "Yellow Pages' own website field points to a non-resolving directory subdomain (www.mintzlights.yellowpageskenya.com).",
+    "Both real domains (mintzlights.com, mintzbergevents.co.ke) are NXDOMAIN.",
+    "Outreach claimed a finished preview mockup from the lead's own photos while assets = 0 and hero-worthy = 0.",
+    "Outreach named MoMo payments in Kenya; listings say Cash / M-Pesa / Cheque.",
+    "Garbled outreach sentence: 'customers find your event organisers listing on Nairobi'.",
+    "Why-pitch 'strongest selling point: Pay and Health' contradicts health 4/10 'unverified active'.",
+    "need 3/10 reasoned as 'site ~functional' while has_website is null and website_status unknown — and the site is dead.",
+    "Category event_organisers understates actual scope (lighting, décor, equipment and truck hire).",
+    "Dossier address is postal only; physical address 46 Kigwa Road, Ridgeways missing.",
+    "Three conflicting map coordinates across sources (spread ~1.1 km).",
+    "Two emails: mintzbergservices@gmail.com (directory) vs mintzlights@gmail.com (own 2026 posts).",
+    "Two phone numbers with no label saying which is WhatsApp; 0757 924 836 is the one used in current posts."
+  ],
+  "sources": [
+    "https://www.yellowpageskenya.com/business-category/events/business-details/2852069-mintz-lights",
+    "https://www.evepla.com/KE/Nairobi/1473399672955768/MINTZ-Lights",
+    "https://www.apexbusinesspages.com/listing/mintz-lights/",
+    "https://www.keonline.biz/business/207628-mintslights",
+    "https://www.goafricaonline.com/ke/1067449-mintz-lights",
+    "https://www.beyondforest.org/post/garden-estate-nairobi",
+    "https://linkedin.com/in/lucy-mburu-20b0ba65",
+    "https://dns.google/resolve?name=mintzlights.com&type=A",
+    "https://dns.google/resolve?name=mintzbergevents.co.ke&type=A",
+    "https://graph.facebook.com/1473399672955768/picture?type=large",
+    "https://api.yellowpageskenya.com/images/KEN/logos/23043.WebP",
+    "https://eventsandpartyrentals.co.ke/our-services/lights-and-chandeliers-for-hire-in-nairobi/",
+    "https://daciaevents.com/",
+    "https://onyx-events.co.ke/event-lighting/"
+  ],
+  "unverified": [
+    {"target": "https://www.facebook.com/mintzlights/", "reason": "HTTP 400 to non-logged-in client; post text read via EvePla mirror, post images not retrievable (login wall)."},
+    {"target": "https://www.instagram.com/mintzlights/", "reason": "HTTP 200 but login wall; API returned 401. Handle existence not confirmed."},
+    {"target": "https://www.tiktok.com/@mintzlights", "reason": "Profile HTML blocked; oEmbed returned 400. Handle not confirmed."},
+    {"target": "https://vanlett.com/h/eventplanner", "reason": "Blocked by Anubis bot-check (HTTP 511)."},
+    {"target": "https://kenya.worldplaces.me/review/96341679-mintz-lights.html", "reason": "HTTP 511 to automated fetch; listing text only seen in search index."},
+    {"target": "https://www.google.com/maps/search/Mintz+Lights+Kigwa+Road+Nairobi", "reason": "JavaScript shell; no listing, rating or review data in HTML. Rating taken from secondary mirrors."},
+    {"target": "Pricing / packages", "reason": "Not published on any reachable page — not found."},
+    {"target": "Owner identity", "reason": "Not publicly stated; only a planner role on LinkedIn."}
+  ]
+}

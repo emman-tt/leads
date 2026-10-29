@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+/* "PATIENT REPORT / VITALRAY" palette — lead-pipeline.pen / VITALRAY frames */
+:root {
+  --paper: #f7f9f8;
+  --ink: #223239;
+  --deep: #152329;
+  --teal: #0f6e76;
+  --glow: #bfe7e3;
+  --line: #d8e1df;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-deep: var(--deep);
+  --color-teal: var(--teal);
+  --color-glow: var(--glow);
+  --color-line: var(--line);
+
+  --font-display: var(--font-fraunces), "Fraunces", Georgia, serif;
+  --font-body: var(--font-public), "Public Sans", system-ui, sans-serif;
+  --font-mono: var(--font-plex), "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-public), "Public Sans", system-ui, sans-serif;
+  overflow-x: clip;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--teal);
+  color: var(--paper);
+}
+
+/* visible focus for keyboard CTAs (WCAG) */
+:where(a, button, select, input, [tabindex]):focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* skip link — visually hidden until focused */
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  z-index: 100;
+  background: var(--teal);
+  color: var(--paper);
+  font-weight: 700;
+  font-size: 12px;
+  padding: 10px 16px;
+  transition: top 0.2s ease-out;
+}
+.skip-link:focus {
+  top: 16px;
+}
+
+/* prefers-reduced motion: kill all CSS animation + smooth scrolling */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}

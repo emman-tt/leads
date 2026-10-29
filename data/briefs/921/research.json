@@ -1,0 +1,394 @@
+{
+  "lead_id": 921,
+  "audit_date": "2026-10-22",
+  "audit_revision": 2,
+  "business": {
+    "name": "Canaan Medical Centre",
+    "also_known_as": "Canaan Medical Center; formerly branded 'Canaan Health Providers'",
+    "category_claimed": "pharmacies",
+    "category_verified": "outpatient / family-practice medical clinic (general practitioner; insurer-billed)",
+    "city": "Nairobi",
+    "area": "Nairobi CBD — Corner House, Mama Ngina Street",
+    "country": "kenya",
+    "address_verified": "Corner House, 1st Floor, Mama Ngina Street, Nairobi CBD",
+    "address_claimed": null,
+    "postal_address": "P.O. Box 48981-00100, GPO Nairobi",
+    "operating_hours": "Mon-Fri 08:00-17:00, Sat 08:00-12:00, Sun closed",
+    "accessibility": "Wheelchair accessible; parking and restroom listed",
+    "listed_since": "4 Oct 2011 (BusinessList.co.ke registration date)",
+    "employees": "not published",
+    "languages": [
+      "en",
+      "sw (inferred from Nairobi CBD walk-in clientele; not observed in copy)"
+    ],
+    "description_verified": "Small private outpatient clinic on the first floor of Corner House, Nairobi CBD. Family practice and outpatient consultations; contracted with UAP Old Mutual, Minet and the Teachers Medical Scheme. Previously ran a website under the name 'Canaan Health Providers'.",
+    "payment_methods": [
+      "insurance billing (UAP Old Mutual, Minet, Teachers Medical Scheme)",
+      "cash",
+      "M-Pesa (assumed for walk-ins; not published)"
+    ],
+    "currency": "KES",
+    "decision_maker": {
+      "name": null,
+      "role": null,
+      "confidence": "none",
+      "note": "No doctor, director or owner is named on any reachable page. Insurer panels list the facility, not a contact person. Address the clinic and ask who handles enquiries in the first reply."
+    }
+  },
+  "website": {
+    "verified_url": null,
+    "claimed_in_dossier": "https://www.googletagmanager.com/gtag/js?id=G-Z6HX57VF8P",
+    "claimed_by_business": "info@canaanhealthproviders.org (published on their Minet panel and Yellow Pages listing)",
+    "domains_checked": [
+      "canaanhealthproviders.org",
+      "canaanhealthproviders.com",
+      "canaanmedicalcentre.co.ke",
+      "canaanmedicalcentre.com",
+      "canaanmedicalcenter.co.ke"
+    ],
+    "domain_finding": "canaanhealthproviders.org is no longer in the .org registry (NXDOMAIN at the TLD, RDAP 404 on 2026-10-22). It is unregistered and registrable today.",
+    "history": [
+      {
+        "period": "2017-05 to at least 2021-11",
+        "state": "Live site: 'CANAAN HEALTH PROVIDERS — we listen we care!', nav Home / About us / News & Event / Products / Services / Portfolio / Links / Contact Us / Support.",
+        "detail": "A cheap vendor template left unfinished — archived pages render only the nav and the tagline: no services, no staff, no phone, no email, no photos.",
+        "source": "https://web.archive.org/web/20180104141656/http://canaanhealthproviders.org/ ; timemap 20170512-20250220"
+      },
+      {
+        "period": "2025-02-20",
+        "state": "HTTP 302 redirect to https://www.facebook.com/ (root, not a page), 47-byte body — nothing of their own served.",
+        "source": "Wayback replay headers, x-archive-orig-location",
+        "confidence": "High"
+      },
+      {
+        "period": "2026-10-22",
+        "state": "Domain unregistered. No replacement site under any name variant.",
+        "source": "dns.google (status 3); rdap.org (404)",
+        "confidence": "High"
+      }
+    ]
+  },
+  "website_status": "NONE",
+  "website_status_detail": "Not 'never had one' — lapsed. A template site lived at canaanhealthproviders.org from 2017 to 2021, degenerated into a bare redirect to facebook.com by Feb 2025, and the domain has since dropped out of the registry. The email on their Minet panel and Yellow Pages listing therefore bounces. No replacement site and no social page exist.",
+  "evidence": [
+    {
+      "claim": "Minet 2025 panel row, verbatim: 'Canaan Medical Centre | Corner Hse, 1st Floor, Mama Ngina Street | 0711702224 / 341896 / 341903 / 2230697 | Outpatient | info@canaanhealthproviders.org | Nairobi-CBD'",
+      "source": "https://imanihealth.co.ke/__l5e/assets-v1/dc364110-7be3-48f1-b1dc-d7f8b33275b0/minet-provider-panel-2025.pdf (text extracted from the PDF itself)",
+      "date": "2025 panel, read 2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "UAP Old Mutual panel row: 'CANAAN MEDICAL CENTRE — Nairobi CBD — Corner Hse 1st, Floor — +254 711-702224 /20 2230697'",
+      "source": "https://kengensrbs.co.ke/wp-content/uploads/2024/03/2.UAP_OM-Health-Provider-Panel.pdf",
+      "date": "2024-03, read 2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "On the Teachers Medical Scheme provider list, Nairobi-CBD, access Direct",
+      "source": "https://collaborationkenya.minet.com/MinetKe/Teachersmedicalscheme/files/2023_07_14_01_11_14pm_ServiceProvidersList.pdf (text extracted)",
+      "date": "2023-07, read 2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Former site captured under the name 'Canaan Health Providers', tagline 'we listen we care!', with an 8-item business site nav",
+      "source": "https://web.archive.org/web/20180104141656/http://canaanhealthproviders.org/",
+      "date": "snapshot 2018-01-04; earliest 2017-05-12",
+      "confidence": "High"
+    },
+    {
+      "claim": "The archived site was an unfilled template — only nav and tagline render; no services, staff, phone, email or photos in the HTML",
+      "source": "Archived HTML of the 2018 snapshot, script-stripped",
+      "date": "2018 snapshot",
+      "confidence": "High"
+    },
+    {
+      "claim": "By 2025-02-20 the domain served a 302 redirect to https://www.facebook.com/ with a 47-byte body",
+      "source": "Wayback replay headers for 20250220194612 (x-archive-orig-location)",
+      "date": "2025-02-20",
+      "confidence": "High"
+    },
+    {
+      "claim": "canaanhealthproviders.org is not registered (NXDOMAIN at .org, RDAP 404)",
+      "source": "https://dns.google/resolve?name=canaanhealthproviders.org&type=A ; https://rdap.org/domain/canaanhealthproviders.org",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "No other site resolves: canaanhealthproviders.com, canaanmedicalcentre.co.ke, canaanmedicalcentre.com, canaanmedicalcenter.co.ke all NXDOMAIN",
+      "source": "Google DNS JSON API",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Clinic listed at Corner Hse, 1st Flr, Mama Ngina St, with mobile +254 711 702 224 and the dead .org email",
+      "source": "https://www.yellowpageskenya.com/business-category/medical-practitioners-paediatric-surgeon/business-details/989569-canaan-medical-centre",
+      "date": "2026-10-22",
+      "confidence": "High"
+    },
+    {
+      "claim": "Postal address P.O. Box 48981-00100 GPO; listing registered 4 Oct 2011",
+      "source": "https://www.businesslist.co.ke/company/38982/canaan-medical-centre",
+      "date": "read 2026-10-22",
+      "confidence": "Medium"
+    },
+    {
+      "claim": "Hours Mon-Fri 08:00-17:00, Sat 08:00-12:00, Sun closed; extra line 020 4445985; fax 020 4448770; wheelchair accessible",
+      "source": "https://www.africabizinfo.com/KE/canaan-medical-centre_25-020-341896 ; https://www.goafricaonline.com/ke/1113448-canaan-medical-centre",
+      "date": "2026-10-22",
+      "confidence": "Medium"
+    },
+    {
+      "claim": "Negative or absent reviews: 0 on BusinessList, 0 on Go Africa Online, 'be the first' on Yellow Pages Kenya, 4 on KEOnline",
+      "source": "Directory pages read directly",
+      "date": "2026-10-22",
+      "confidence": "Medium"
+    },
+    {
+      "claim": "No Facebook, Instagram, TikTok or LinkedIn page found under the clinic's name, address or phone",
+      "source": "Exact-name, address and phone searches; social platforms unreachable logged-out",
+      "date": "2026-10-22",
+      "confidence": "Medium"
+    }
+  ],
+  "contacts": {
+    "whatsapp": {
+      "number": "+254711702224",
+      "verified": false,
+      "note": "Published as a mobile on the Minet and UAP Old Mutual panels. Plausibly on WhatsApp but never tested; the pipeline simply copied phone into whatsapp."
+    },
+    "phones": [
+      {
+        "number": "+254711702224",
+        "label": "mobile",
+        "source": "Minet 2025 panel; UAP Old Mutual panel",
+        "confidence": "High"
+      },
+      {
+        "number": "+25420341896",
+        "label": "landline",
+        "source": "Minet 2025 panel; africabizinfo; goafricaonline",
+        "confidence": "High"
+      },
+      {
+        "number": "+25420341903",
+        "label": "landline",
+        "source": "Minet 2025 panel",
+        "confidence": "High"
+      },
+      {
+        "number": "+254202230697",
+        "label": "landline",
+        "source": "Minet 2025 panel; UAP Old Mutual panel",
+        "confidence": "High"
+      },
+      {
+        "number": "+254204445985",
+        "label": "extra line",
+        "source": "africabizinfo",
+        "confidence": "Low"
+      }
+    ],
+    "email": {
+      "address": "info@canaanhealthproviders.org",
+      "verified": false,
+      "note": "Published by the clinic on the Minet panel and Yellow Pages, but the domain is unregistered — mail cannot be delivered."
+    },
+    "fax": "020 4448770",
+    "ig": null,
+    "fb": null
+  },
+  "socials": {
+    "facebook": null,
+    "instagram": null,
+    "tiktok": null,
+    "linkedin": null,
+    "note": "Nothing found. The 2025 domain redirect pointed at facebook.com's root, not at a page, so no page can be inferred. Absence here is 'not found', not proof of absence."
+  },
+  "assets": [],
+  "assets_note": {
+    "preview_only": true,
+    "hero_worthy_count": 0,
+    "flagged_non_hero": [],
+    "summary": "No site, no socials, no logo file, no photographs. The only surviving visual trace is the 2017 template's text wordmark 'CANAAN HEALTH PROVIDERS'. Any design starts from scratch or from photos the clinic sends."
+  },
+  "brand": {
+    "logo": null,
+    "tagline": "we listen we care! (2017 site)",
+    "tagline_source": "https://web.archive.org/web/20180104141656/http://canaanhealthproviders.org/",
+    "former_brand_name": "Canaan Health Providers",
+    "colors": null,
+    "colors_note": "Nothing published. The 2017 template used a generic vendor palette, not brand colours.",
+    "services": [
+      "Family practice / general consultations",
+      "Outpatient walk-in clinic",
+      "Insurer-billed consultations (UAP Old Mutual, Minet, Teachers Medical Scheme)"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "AAR Healthcare — Nairobi CBD clinic",
+      "url": "https://www.aar.co.ke/",
+      "compare": "Same Minet CBD panel, ICEA Building on Kenyatta Avenue. National brand with branch pages, online booking and published services — the benchmark a Corner House walk-in is measured against."
+    },
+    {
+      "name": "Avenue Healthcare — Town Branch",
+      "url": "https://www.avenuehealthcare.com/",
+      "compare": "Barclays Plaza, Loita Street — three blocks away, also on the Minet CBD panel, with a full site, doctor profiles and branch hours."
+    },
+    {
+      "name": "Ivory Health Solutions — Corner House",
+      "url": "https://ivoryhealth.co.ke/",
+      "compare": "Same building (Corner House, Mezzanine 2) and same insurer panels, with a domain, published staff emails and a working contact page — the most direct local contrast."
+    }
+  ],
+  "score": {
+    "weights": {
+      "health": 0.25,
+      "readiness": 0.2,
+      "need": 0.2,
+      "pay": 0.15,
+      "reach": 0.1,
+      "assets": 0.1
+    },
+    "old": {
+      "total": 48,
+      "tier": "C"
+    },
+    "new": {
+      "total": 57,
+      "tier": "B"
+    },
+    "confidence": "medium-high on website/contacts; medium on health; low on pay",
+    "factors": [
+      {
+        "name": "health",
+        "old": 4,
+        "new": 6,
+        "reason": "Continuously contracted — Teachers 2023, UAP Old Mutual 2024, Minet 2025 — and listed since 2011. Capped at 6 by only 4 reviews and no social activity.",
+        "source": "Three provider-panel PDFs"
+      },
+      {
+        "name": "readiness",
+        "old": 5,
+        "new": 2,
+        "reason": "No site, no socials, dead email; phone lines only. The pipeline's formula returns 5 solely because `whatsapp` is populated, and that value is a copy of `phone`.",
+        "source": "DNS checks + searches"
+      },
+      {
+        "name": "need",
+        "old": 3,
+        "new": 10,
+        "reason": "Lapsed branded domain, dead published email and an abandoned template site — total absence, not a weak site.",
+        "source": "RDAP 404; Wayback history"
+      },
+      {
+        "name": "pay",
+        "old": 7,
+        "new": 7,
+        "reason": "Bills three insurer panels, so revenue is institutional; single branch, no published size.",
+        "source": "Provider panels"
+      },
+      {
+        "name": "reach",
+        "old": 8,
+        "new": 6,
+        "reason": "A mobile and three landlines published consistently across panels and directories, but no named person and WhatsApp unverified.",
+        "source": "Minet/UAP panels"
+      },
+      {
+        "name": "assets",
+        "old": 3,
+        "new": 1,
+        "reason": "Nothing exists to reuse — no logo, photos or brand colours.",
+        "source": "Verified"
+      }
+    ]
+  },
+  "tier": "B",
+  "recommendation": "PURSUE",
+  "recommendation_reason": "Real clinic, on three insurer panels across 2023-2025, reachable by mobile, and its web presence is dead rather than absent: a half-built template site, a facebook.com redirect, and a domain that has since lapsed. Not a false 'no site' claim like Vital Ray. Held to tier B by having no assets and no named contact. Contact by phone/WhatsApp only — the published email cannot receive mail.",
+  "outreach": {
+    "language": "en",
+    "channel": "whatsapp",
+    "payment_reference": "M-Pesa",
+    "variants": [
+      {
+        "id": "A",
+        "style": "warm / short",
+        "text": "Hi Canaan Medical Centre 👋 Emmanuel here. I looked you up before a visit and found that your old site — canaanhealthproviders.org — is gone, and the email on your insurer listing uses that same domain, so it bounces now.\n\nI build simple one-page sites for Nairobi clinics: location and map pin, opening hours, the schemes you accept, and a WhatsApp button to book. I can put a first draft together at no charge and send a screenshot here.\n\nWant me to? If it's not useful, just say so and I won't message again. — Emmanuel"
+      },
+      {
+        "id": "B",
+        "style": "detailed",
+        "text": "Hi Canaan Medical Centre, Emmanuel here. I found you on the Minet and UAP Old Mutual panels — Corner House, Mama Ngina Street — and then went to look at your website.\n\nIt's gone. canaanhealthproviders.org used to hold your 'Canaan Health Providers' page; by early 2025 the address just forwarded to Facebook, and now the domain has expired. The email printed on your Minet listing uses that domain, so it bounces.\n\nWhat I build: one clean page with your location and a map pin, opening hours, the insurers you accept, and a WhatsApp button so a patient can ask a question without calling. It loads fast on mobile data.\n\nI haven't built anything for you yet. If it's useful I'll do a free first draft and send a screenshot right here — if not, tell me and I'll stop. — Emmanuel"
+      }
+    ],
+    "followups": [
+      {
+        "day": 3,
+        "text": "Hi, Emmanuel here, following up on the clinic website idea. Short version: your old domain has expired and the email on your insurer listing bounces, so that's the only reason I messaged. Should I put together the free draft, or park it? One word is fine."
+      },
+      {
+        "day": 7,
+        "text": "Last note from me, promise. If a simple page with your hours, location and the schemes you accept would help later, the offer stands and the draft is still free. If not, no problem — all the best. 🙏 — Emmanuel"
+      }
+    ],
+    "claims_allowed": [
+      "The clinic's old site (canaanhealthproviders.org) is gone and the domain has expired — verified",
+      "The email published on their Minet panel and Yellow Pages listing uses that domain, so it bounces — verified",
+      "There is no website for the clinic today; searches return directory listings only",
+      "They are listed on UAP Old Mutual, Minet and Teachers Medical Scheme panels",
+      "They are at Corner House, 1st Floor, Mama Ngina Street, Nairobi CBD",
+      "Opening hours 08:00-17:00 weekdays, 08:00-12:00 Saturday (as published — confirm before repeating)",
+      "A free first draft can be built on request (future offer, not an existing asset)"
+    ],
+    "claims_banned": [
+      "That a preview or mockup already exists",
+      "That patients are searching and cannot find them — no evidence",
+      "Any medical, clinical or outcome claim",
+      "That 0711 702224 is definitely on WhatsApp (send and see; do not assert)",
+      "That the domain was 'stolen' or 'hijacked' — it simply lapsed",
+      "That they have no reviews or a bad reputation",
+      "Any mention of MoMo — Kenya is M-Pesa",
+      "Any reference to Accra, Ghana or the pipeline's 'pharmacies' category"
+    ]
+  },
+  "flags": [
+    "Website field is the kenyayp gtag bug — G-Z6HX57VF8P, same container as every other Kenyan lead",
+    "Draft says 'Accra pharmacies' — the clinic is in Nairobi CBD",
+    "Category recorded as pharmacies; it is an outpatient clinic",
+    "City, address and coordinates were null, so the summary headline prints '?'",
+    "WhatsApp is an unverified copy of the mobile number",
+    "Email is undeliverable — domain expired out of the registry",
+    "'need' scored 3/10 with 'site ~functional' when no site exists",
+    "Draft claims a free preview mockup built from their own photos; there are zero photos",
+    "Draft offers MoMo payments in Kenya",
+    "Reason field ('Pay and Health') contradicts health 4/10 'unverified active'",
+    "Duplicate listings exist in the wild (Go Africa Online 1113448 and 1105226) — dedupe if this source is re-scanned",
+    "Same-name trap: a separate 'Canaan Medical Clinic' sits in Turkana South on the Teachers scheme list"
+  ],
+  "sources": [
+    "https://www.yellowpageskenya.com/business-category/medical-practitioners-paediatric-surgeon/business-details/989569-canaan-medical-centre",
+    "https://imanihealth.co.ke/__l5e/assets-v1/dc364110-7be3-48f1-b1dc-d7f8b33275b0/minet-provider-panel-2025.pdf",
+    "https://kengensrbs.co.ke/wp-content/uploads/2024/03/2.UAP_OM-Health-Provider-Panel.pdf",
+    "https://collaborationkenya.minet.com/MinetKe/Teachersmedicalscheme/files/2023_07_14_01_11_14pm_ServiceProvidersList.pdf",
+    "https://www.africabizinfo.com/KE/canaan-medical-centre_25-020-341896",
+    "https://www.businesslist.co.ke/company/38982/canaan-medical-centre",
+    "https://www.goafricaonline.com/ke/1113448-canaan-medical-centre",
+    "https://keonline.biz/business/76569-canaan-medical-centre",
+    "https://web.archive.org/web/20180104141656/http://canaanhealthproviders.org/",
+    "https://web.archive.org/web/timemap/link/http://canaanhealthproviders.org",
+    "https://dns.google/resolve?name=canaanhealthproviders.org&type=A",
+    "https://rdap.org/domain/canaanhealthproviders.org"
+  ],
+  "unverified": [
+    "Whether 0711 702224 is on WhatsApp — cannot confirm without messaging",
+    "Whether the clinic is still trading in 2026 — last independent proof is the 2025 Minet panel",
+    "Whether any doctor or director's name is published — none found",
+    "Whether the domain lapsed by choice or was abandoned by a former web vendor",
+    "Who or what the Feb-2025 facebook.com redirect pointed at — it went to Facebook's root, so no page can be inferred",
+    "Any Google Business Profile content — Maps renders as a JS shell; the '4 reviews' figure is a third-party mirror, undated",
+    "The old site's inner pages — CDX was intermittently offline (503); only homepage snapshots were retrieved",
+    "Message delivery on any channel — nothing was sent"
+  ]
+}

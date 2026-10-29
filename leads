@@ -1,0 +1,120 @@
+#!/bin/zsh
+# leads — short shell for the ghana-lead-pipeline CLI
+#   usage from anywhere:  leads <command> [args]
+#
+#   pipeline stages:
+#     scan    [--city KUMASI] [--category slug] [--pages N]  discovery: ghana = GhanaYello + BusinessGhana;
+#     --country kenya = Yellow Pages Kenya;
+#     --country nigeria = ngex fast pass (default) or --source blng (40s crawl-delay)
+#     audit   [--limit N]        stage 2: check websites live (pending queue first)
+#     score   [--refresh]        stage 3: acceptance score -> tier (--refresh rescores all)
+#     media   [--limit N]        stage 4: enrich tier A/B photos/videos
+#     brief   ["<name>"] [--limit N]   stage 5: per-lead JSON + one-pager + pitch
+#     brief-remove "<name>"   delete a lead's brief folder + clear brief_at
+#
+#   info & files:
+#     status            counts + tier table
+#     leads   [--country ghana|kenya|nigeria] [--limit N] [--all|--reset]
+#                            top-lead view; each run marks what it showed so the
+#                            next run serves the next batch (rotation)
+#                            --reset = clear served history (start a new pass)
+#                            --all   = view-only replay of already-served leads
+#                            (opted-out leads are always excluded)
+#     show    <query>   full raw record of one lead, pretty-printed
+#     export [--tier C] [--city KUMASI] [--category slug]     -> data/exports/leads.csv  (+ .jsonl)
+#     reasons <query>   print score breakdown + reason for a lead
+#     open              open exports folder in Finder
+#     briefs            list per-lead briefs (data/briefs)
+#
+#   outreach book-keeping:
+#     optout  <#id | source:id | +233… | name-part>   mark do-not-contact (rows
+#                     flagged immediately + remembered by phone/brand/source)
+#     outcome <source_id> <replied|meeting|paid|declined|message_sent>   log + recalibrate weights
+#
+#   setup tip:  ln -sf ~/Documents/ghana-lead-pipeline/leads ~/.local/bin/leads
+set -euo pipefail
+
+PROJ="$HOME/Documents/ghana-lead-pipeline"
+PY="$PROJ/.venv/bin/python"
+DB="$PROJ/data/leads.db"
+
+[[ -x "$PY" ]] || { echo "no venv python at $PY"; exit 1; }
+
+# ( row_id below resolves fuzzy names -> db ids )
+row_id() {
+  "$PY" - "$DB" "$1" <<'PYEOF'
+import sqlite3, sys
+conn = sqlite3.connect(sys.argv[1]); conn.row_factory = sqlite3.Row
+q = sys.argv[2].strip()
+row = conn.execute("SELECT id, name FROM businesses WHERE name LIKE ('%'||?||'%') OR brand_key LIKE ('%'||?||'%') ORDER BY accept_score DESC LIMIT 1", (q, q)).fetchone()
+if row is None:
+    print("??no-match", file=sys.stderr); sys.exit(2)
+print(row["id"])
+PYEOF
+}
+
+cmd="${1:-help}"
+shift 2>/dev/null || true
+case "$cmd" in
+  scan|audit|score|media|export|status|leads|outcome|optout|socials)
+    # scan default = ghana (GhanaYello per city + one BusinessGhana national pass).
+    # --country kenya  -> Yellow Pages Kenya national category pass
+    # --country nigeria -> refuses (no robots-compliant source yet)
+    # --classifieds = also Tonaton/Jiji consumer classifieds (noisy, opt-in)
+    # --no-second-source = skip the BusinessGhana pass
+    (cd "$PROJ" && "$PY" -m pipeline.run "$cmd" "$@")
+    ;;
+  brief)
+    (cd "$PROJ" && if [[ $# -ge 1 ]]; then
+       rid=$(row_id "$1") || { echo "no lead matching '$1'"; exit 2; }
+       "$PY" -m pipeline.run brief --lead "$rid"
+     else
+       "$PY" -m pipeline.run brief
+     fi)
+    ;;
+  brief-remove)
+    (cd "$PROJ" && "$PY" -m pipeline.run brief-remove "$@")
+    ;;
+  show|reasons)
+    [[ $# -ge 1 ]] || { echo "usage: leads $cmd \"<name part>\""; exit 1; }
+    rid=$(row_id "$1") || exit 2
+    (cd "$PROJ" && "$PY" - "$DB" "$cmd" "$rid" <<'PYEOF'
+import sqlite3, sys, json
+conn = sqlite3.connect(sys.argv[1]); conn.row_factory = sqlite3.Row
+row = conn.execute("SELECT * FROM businesses WHERE id=?", (sys.argv[3],)).fetchone()
+d = dict(row)
+mode = sys.argv[2]
+if mode == "show":
+    for k in ["id","source_id","name","city","area","address","phone","whatsapp","phone_e164","categories","rating",
+              "reviews_count","established_year","description","ghana_post","latitude","longitude",
+              "accept_score","tier","weakness_score","media_ready","source","profile_url"]:
+        v = d.get(k)
+        if v not in (None, "", "None"):
+            print(f"{k:>18} | {v}")
+    sb = d.get("score_breakdown")
+    if sb:
+        print(f"{'score_breakdown':>18} |")
+        for grp, g in json.loads(sb).items():
+            print(f"{'':>20}{grp:12} score={g.get('score')} weighted={g.get('weighted')}  why={g.get('why')}")
+else:  # reasons
+    sb = json.loads(d.get("score_breakdown") or "{}")
+    print(d["name"], f"= id {d['id']}, {d['accept_score']} pts, tier {d['tier']}", f"source_id={d['source_id']}")
+    for grp, g in sb.items():
+        print(f"  {grp:12} {g.get('score',0):>3} raw -> {g.get('weighted',0):>5} weighted | {g.get('why','')}")
+PYEOF
+    )
+    ;;
+  briefs)
+    ls -1 "$PROJ/data/briefs" 2>/dev/null | sed 's/^/  /' || echo "  (no briefs yet — run: leads brief \"<name>\")"
+    ;;
+  open)
+    open "$PROJ/data/exports/"
+    ;;
+  help|--help|-h|"")
+    grep "^#" "$0"
+    ;;
+  *)
+    echo "unknown command: $cmd  (try: leads help)"
+    exit 1
+    ;;
+esac
